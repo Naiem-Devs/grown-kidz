@@ -10,9 +10,12 @@
   // owlCarousel
   $(".slider").owlCarousel({
     margin: 0,
-    // autoplay:true,
-    // autoplayTimeout:5000,
+    autoplay:true,
+    autoplayTimeout:2000,
     autoplayHoverPause:false,
+    animateOut: 'fadeOut',
+    animateIn: 'flipInX',
+    smartSpeed:1000,
     center: true,
     loop: true,
     items: 3,
@@ -24,24 +27,23 @@
     dots: true,
     responsive: {
       0: {
-        items: 2
+        items: 1
       },
       767: {
         items: 3
       },
       992: {
+        items: 3
+      },
+      1200: {
+        items: 3
+      },
+      1500: {
         items: 5
       }
     }
   });
 
-  /* magnificPopup img view */
-  $(".popup-image").magnificPopup({
-    type: "image",
-    gallery: {
-      enabled: true
-    }
-  }); 
 
  
 })(jQuery);

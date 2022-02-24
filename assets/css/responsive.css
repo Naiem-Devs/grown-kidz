@@ -1,27 +1,608 @@
 /* Big screen :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+    .bg img {
+        width: 50%;
+    }
+    .perks_area .col-xl-3.col-lg-6 {
+        flex: 0 0 50%;
+    }
+    .perks_blk {
+        margin-bottom: 30px;
+    }
+    
+    section.perks_area .container {
+        max-width: 740px;
+    }
+    .collaps {
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+    }
+    section.team_area .col-lg-3 {
+        flex: 0 0 50%;
+        margin-bottom: 30px;
+    }
+    
+    section.team_area .container {
+        max-width: 790px;
+    }
 
+    .tl_parsent ul li span:after {
+        width: 200px;
+        left: -80px;
+    }
+
+
+    section.specs_area.section_mb {
+        overflow: hidden;
+    }
+    
+    section.perks_area.section_mb {
+        overflow: hidden;
+    }
+    
+    section.faq_area {
+        overflow: hidden;
+    }
+    
+    section.team_area {
+        overflow: hidden;
+    }
+    
+    section.rodemap_area.section_mb {
+        overflow: hidden;
+    }
 
 }
 
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+    .bg img {
+        width: 50%;
+    }
+    .perks_area .col-xl-3.col-lg-6 {
+        flex: 0 0 50%;
+    }
+    .perks_blk {
+        margin-bottom: 30px;
+    }
+    
+    section.perks_area .container {
+        max-width: 740px;
+    }
+    .collaps {
+        width: 100%;
+        max-width: 850px;
+        margin: auto;
+    }
+    section.team_area .col-lg-3 {
+        flex: 0 0 50%;
+        margin-bottom: 30px;
+    }
+    
+    section.team_area .container {
+        max-width: 790px;
+    }
 
+    .tl_parsent ul li span:after {
+        width: 200px;
+        left: -80px;
+    }
+    .ab_blk i {
+        display: block;
+        text-align: center;
+    }
+    
+    .ab_blk i img {
+        width: 100%;
+    }
+    .tl_blk {
+        max-width: 350px;
+    }
+    
+    .tl_blk i img {
+        max-width: 300px;
+    }
+    
+    .collaps .accordion-button {
+        text-align: left;
+        font-size: 30px;
+    }
+    .owl-item.active.center {
+        width: 372px !important;
+        transform: translateY(-30px);
+    }
+    .owl-item.cloned.active {
+        width: 300px !important;
+    }
+    
+    .owl-item.active {
+        width: 300px !important;
+    }
+    .tl_parsent:after {height: 92%;}
+
+    .sp_right i {
+        display: block;
+    }
+    
+    .sp_right i img {
+        width: 100%;
+    }
+    p{
+        font-size: 22px;
+    }
+
+    section.specs_area.section_mb {
+        overflow: hidden;
+    }
+    
+    section.perks_area.section_mb {
+        overflow: hidden;
+    }
+    
+    section.faq_area {
+        overflow: hidden;
+    }
+    
+    section.team_area {
+        overflow: hidden;
+    }
+    
+    section.rodemap_area.section_mb {
+        overflow: hidden;
+    }
 
 }
 
  
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    .bg img {
+        width: 50%;
+    }
+    .perks_area .col-xl-3.col-lg-6 {
+        flex: 0 0 50%;
+    }
+    .perks_blk {
+        margin-bottom: 30px;
+    }
+    
+    section.perks_area .container {
+        max-width: 740px;
+    }
+    .collaps {
+        width: 100%;
+        max-width: 850px;
+        margin: auto;
+    }
+    section.team_area .col-lg-3 {
+        flex: 0 0 50%;
+        margin-bottom: 30px;
+    }
+    
+    section.team_area .container {
+        max-width: 790px;
+    }
 
+    .tl_parsent ul li span:after {
+        width: 200px;
+        left: -80px;
+    }
+    .ab_blk i {
+        display: block;
+        text-align: center;
+    }
+    
+    .ab_blk i img {
+        width: 100%;
+    }
+    .tl_blk {
+        max-width: 350px;
+    }
+    
+    .tl_blk i img {
+        max-width: 300px;
+    }
+    
+    .collaps .accordion-button {
+        text-align: left;
+        font-size: 26px;
+    }
+
+.collaps .accordion-body {
+    font-size: 20px;
+}
+    .owl-item.active.center {
+        width: 275px !important;
+        transform: translateY(-18px);
+    }
+    .owl-item.cloned.active {
+        width: 300px !important;
+    }
+    
+    .owl-item.active {
+        width: 235px !important;
+    }
+    .tl_parsent:after {height: 92%;}
+
+    .sp_right i {
+        display: block;
+        max-width: 500px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+    .sp_right i img {
+        width: 100%;
+    }
+    p{
+        font-size: 20px;
+    }
+    .bar {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    .logo-area {
+        max-width: 250px;
+        margin: 70px auto 40px;
+    }
+    
+    .logo-area img {
+        width: 100%;
+    }
+    
+    .text_scroling {
+        margin-bottom: 75px;
+    }
+    
+    .sec_title h2 {
+        font-size: 40px;
+        padding: 30px 45px;
+    }
+    .sgl_slide{
+    padding: 5px;
+}
+.owl-carousel .owl-stage-outer {
+    height: 366px;
+}
+
+.owl-dot {
+    width: 20px;
+    margin: 5px;
+}
+
+.owl-dots {
+    transform: translateX(0px);
+}
+.tl_parsent {
+    display: none;
+}
+
+    section.specs_area.section_mb {
+        overflow: hidden;
+    }
+
+.section_mb {
+    margin-bottom: 100px;
+}
+.time_line_wrp {
+    margin-top: 40px;
+}
+section.specs_area.section_mb .row:last-child {
+    flex-direction: column-reverse;
+}
+.title{
+    font-size: 40px;
+}
+.families_area{
+    margin-bottom: 0;
+}
+    
+    section.perks_area.section_mb {
+        overflow: hidden;
+    }
+    
+    section.faq_area {
+        overflow: hidden;
+    }
+    
+    section.team_area {
+        overflow: hidden;
+        clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+        padding-bottom: 50px;
+    }
+    
+    section.rodemap_area.section_mb {
+        overflow: hidden;
+        margin-bottom: 0;
+    }
 
 }
 
  
 /* small screen :320px. */
 @media (max-width: 767px) {
+    .bg img {
+        width: 50%;
+        height: 260px;
+    }
+    .text_scroling ul li span{
+        font-size: 20px;
+    }
+    .perks_area .col-xl-3.col-lg-6 {
+        flex: 0 0 100%;
+    }
+    .perks_blk {
+        margin: auto;
+        margin-bottom: 30px;
+        width: 300px;
+        height: auto;
+        padding-bottom: 20px;
+    }
 
+.perks_blk h3 {
+    font-size: 28px;
+}
+    
+    section.perks_area .container {
+        max-width: 740px;
+    }
+    .collaps {
+        width: 100%;
+        max-width: 850px;
+        margin: auto;
+    }
+    section.team_area .col-lg-3 {
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+    
+    section.team_area .container {
+        max-width: 790px;
+    }
+
+    .tl_parsent ul li span:after {
+        width: 200px;
+        left: -80px;
+    }
+    .ab_blk i {
+        display: block;
+        text-align: center;
+    }
+    .about_cont a{
+    width: 200px;
+    height: 55px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+    .ab_blk i img {
+        width: 100%;
+    }
+    .tl_blk {
+        max-width: 350px;
+        margin-bottom: 40px;
+    }
+
+.tl_3 {
+    margin-bottom: -30px;
+}
+    
+    .tl_blk i img {
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    .collaps .accordion-button {
+        text-align: left;
+        font-size: 20px;
+        padding-top: 25px;
+    }
+    section.COLLECTIONS {
+        clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
+        padding: 100px 0;
+    }
+.collaps .accordion-body {
+    font-size: 18px;
+}
+    .owl-item.active.center {
+        width: 292px !important;
+        transform: translateY(-18px);
+    }
+    .owl-item.cloned.active {
+        width: 300px !important;
+    }
+    
+    .owl-item.active {
+        width: 235px !important;
+    }
+    .tl_parsent:after {height: 92%;}
+
+    .sp_right i {
+        display: block;
+        max-width: 500px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+
+.tl_blk h2 {
+    font-size: 25px;
+}
+    
+    .sp_left h2 {
+        margin-bottom: 30px;
+    }
+    
+    .sp_left p {
+        margin-bottom: 18px;
+    }
+    .sp_right i img {
+        width: 100%;
+    }
+    p{
+        font-size: 17px;
+    }
+    .bar {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    .logo-area {
+        max-width: 190px;
+        margin: 70px auto 27px;
+        opacity: 1 !important;
+    }
+
+footer .logo-area {
+    max-width: 231px;
+}
+    
+    .logo-area img {
+        width: 100%;
+    }
+    
+    .text_scroling {
+        margin-bottom: 51px;
+        height: 50px;
+    }
+    
+    .sec_title h2 {
+        font-size: 25px;
+        padding: 11px 25px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+.sec_title {
+    margin-bottom: 30px;
+}
+
+.sec_title span {
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.sec_title span:after, .sec_title span:before {
+    width: 50px;
+}
+
+.sec_title span:after {
+    left: -60px;
+}
+
+.sec_title span:before {
+    right: -60px;
+}
+    .sgl_slide{
+    padding: 5px;
+}
+section.COLLECTIONS .row:last-child {
+    max-width: 320px;
+    margin: auto;
+}
+.owl-carousel .owl-stage-outer {
+    height: 366px;
+}
+
+.owl-dot {
+    width: 20px;
+    margin: 5px;
+}
+
+.owl-dots {
+    transform: translateX(0px);
+}
+.tl_parsent {
+    display: none;
+}
+
+    section.specs_area.section_mb {
+        overflow: hidden;
+    }
+
+.section_mb {
+    margin-bottom: 60px;
+}
+.time_line_wrp {
+    margin-top: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+section.specs_area.section_mb .row:last-child {
+    flex-direction: column-reverse;
+}
+.title{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.families_area{
+    margin-bottom: 0;
+}
+    
+    section.perks_area.section_mb {
+        overflow: hidden;
+        margin-top: 60px;
+    }
+    
+    section.faq_area {
+        overflow: hidden;
+    }
+
+section.faq_area .sec_title h2 {
+    width: 275px;
+}
+    
+    section.team_area {
+        overflow: hidden;
+        clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+        padding: 85px 0 50px;
+        margin-bottom: 70px;
+    }
+    
+    section.rodemap_area.section_mb {
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+    .card_blk{
+    margin: auto;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 285px;
+}
+.card_blk i {
+    max-width: 280px;
+}
+
+.card_blk i img {
+    width: 100%;
+}
+footer {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+}
+
+footer .social_icon ul li a svg {
+    width: 30px;
+}
+
+footer .social_icon ul li a {
+    margin: 0 2px;
+}
+
+.menu-area nav ul li a {
+    margin-bottom: 10px;
+}
+
+.menu-area {
+    margin-bottom: 0;
+}
+
+footer .social_icon {
+    margin: 20px 0 10px;
+}
  
 }
  
