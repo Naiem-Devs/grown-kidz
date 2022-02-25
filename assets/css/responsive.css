@@ -522,6 +522,7 @@ section.COLLECTIONS .row:last-child {
 
     section.specs_area.section_mb {
         overflow: hidden;
+        margin-bottom: 15px;
     }
 
 .section_mb {
@@ -546,6 +547,7 @@ section.specs_area.section_mb .row:last-child {
     section.perks_area.section_mb {
         overflow: hidden;
         margin-top: 60px;
+        margin-bottom: 15px;
     }
     
     section.faq_area {

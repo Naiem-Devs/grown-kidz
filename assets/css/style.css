@@ -187,14 +187,25 @@ footer .menu-area nav ul li a:hover {
   background: linear-gradient(90deg, #028DE4 0%, #F31977 49.14%, #AA09C5 100%);
   display: flex;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 70px;
+  overflow: hidden;
 }
 
-.text_scroling ul {}
+.tss {
+    animation: marquee 20s linear infinite;
+}
 
+.text_scroling ul {
+    display: flex;
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
 .text_scroling ul li {
-  display: inline-block;
-  list-style: disc;
+  display: block;
+  /* list-style: disc; */
+  width: max-content;
 }
 
 .text_scroling ul li span {
@@ -204,7 +215,7 @@ footer .menu-area nav ul li a:hover {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
-    margin: 0 5px;
+    margin: 0 7px;
     position: relative;
 }
 
@@ -332,8 +343,7 @@ footer .menu-area nav ul li a:hover {
 
 
 /* ----------about_area Start------- */
-.about_area {
-}
+.about_area {padding-top: 50px;}
 
 section.about_area .row:last-child {
     max-width: 1100px;
@@ -439,7 +449,8 @@ section.COLLECTIONS .row:last-child {
 
 
 /* ----------specs_area Start------- */
-.specs_area {}
+.specs_area {
+}
 .sp_left {
 }
 
@@ -455,7 +466,9 @@ section.COLLECTIONS .row:last-child {
 
 
 /* ----------rodemap_area Start------- */
-.rodemap_area {}
+.rodemap_area {
+    padding-top: 50px;
+}
 
 .time_line_wrp {display: flex;justify-content: space-between;align-items: start;height: 100%;margin-top: 140px;}
 .time_line {
@@ -570,7 +583,7 @@ section.perks_area .container {
 
 
 /* ----------faq_area Start------- */
-.faq_area {margin-bottom: 50px;}
+.faq_area {margin-bottom: 50px;padding-top: 50px;}
 .collaps .accordion-button {border: none;background: none;font-size: 36px;border-top: 2px solid rgba(0, 0, 0, 0.2);padding-left: 0;text-transform: uppercase;padding-top: 40px;}
 
 .collaps {
@@ -603,7 +616,7 @@ section.perks_area .container {
 
 /* ----------team_area Start------- */
 .team_area {
-    padding: 160px 0 200px;
+    padding: 200px 0 200px;
     clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
     background: rgba(0, 0, 0, 0.03);
     margin-bottom: 100px;
