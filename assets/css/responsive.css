@@ -486,6 +486,11 @@ footer .logo-area {
     font-size: 16px;
 }
 
+section.cooming_soon .sec_title h2 {
+    width: 100%;
+    max-width: max-content;
+}
+
 .sec_title span:after, .sec_title span:before {
     width: 50px;
 }
@@ -604,6 +609,16 @@ footer .social_icon ul li a {
 
 footer .social_icon {
     margin: 20px 0 10px;
+}
+.cs_blk i{
+    width: 320px;
+    height: 320px;
+}
+.cs_wrp {
+    padding-bottom: 25px;
+}
+section.cooming_soon{
+    margin-bottom: 30px;
 }
  
 }

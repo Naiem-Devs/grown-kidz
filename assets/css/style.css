@@ -579,7 +579,62 @@ section.perks_area .container {
     margin-bottom: 45px;
     height: 78px;
 }
+.cs_wrp::-webkit-scrollbar{
+    height: 14px;
+    background: #DADADA;
+    border-radius: 30px;
+}
+.cs_wrp::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg, #028DE4 0%, #F31977 49.14%, #AA09C5 100%);
+    border-radius: 30px;
+}
 /* ----------perks_area End------- */
+
+
+/* ----------faq_area Start------- */
+.cs_wrp {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+section.cooming_soon {margin-bottom: 90px;}
+
+section.cooming_soon .sec_title p {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.cs_blk {
+    text-align: center;
+    margin: 0 20px 30px;
+}
+
+.cs_blk span {
+    font-size: 20px;
+}
+
+.cs_blk h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #0C2705;
+    text-transform: uppercase;
+}
+
+.cs_blk i img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cs_blk i {
+    width: 490px;
+    height: 485px;
+    display: block;
+    margin-bottom: 20px;
+}
+/* ----------faq_area Start------- */
 
 
 /* ----------faq_area Start------- */
